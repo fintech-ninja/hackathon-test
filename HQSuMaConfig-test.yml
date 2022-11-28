@@ -1,0 +1,13 @@
+apiVersion: SuMaConfig/v1
+kind: Config
+metadata:
+  name: suma-config
+  labels:
+    app: suma
+projects:
+  SUMA_CICD_Test:
+    config:
+        params:
+          - paramName: TMS_Org
+            value: SAG_SHOP
+           -
